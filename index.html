@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="/styles/main.css" />
+		<title>Frontend Mentor | Results summary component</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="card">
+			<section class="result">
+				<p class="result__indication">Your Result</p>
+
+				<div class="circle">
+					<div class="circle__content">
+						<p class="circle__score">76</p>
+						<p class="circle__total-score">of 100</p>
+					</div>
+				</div>
+
+				<p class="score__message-summary">Great</p>
+				<p class="score__message-details">
+					You scored higher than 65% of the people who have taken these tests.
+				</p>
+			</section>
+
+			<section class="summary">
+				<h1 class="summary__title">Summary</h1>
+
+				<div class="summary__wrapper summary__wrapper--red">
+					<div class="summary__criteria summary__criteria--red">
+						<img
+							class="summary__icon"
+							src="/assets/images/icon-reaction.svg"
+							alt=""
+						/>Reaction
+					</div>
+					<div class="summary__score"><span class="summary__score-bold">80</span> / 100</div>
+				</div>
+
+				<div class="summary__wrapper summary__wrapper--yellow">
+					<div class="summary__criteria summary__criteria--yellow">
+						<img
+							class="summary__icon"
+							src="/assets/images/icon-memory.svg"
+							alt=""
+						/>Memory
+					</div>
+					<div  class="summary__score"><span class="summary__score-bold ">92</span> / 100</div>
+				</div>
+
+				<div class="summary__wrapper summary__wrapper--green">
+					<div class="summary__criteria summary__criteria--green">
+						<img
+							class="summary__icon"
+							src="/assets/images/icon-verbal.svg"
+							alt=""
+						/>
+						Verbal
+					</div  class="summary__score">
+					<div  class="summary__score"><span class="summary__score-bold">61</span> / 100</div>
+				</div>
+
+				<div class="summary__wrapper summary__wrapper--blue">
+					<div class="summary__criteria summary__criteria--blue">
+						<img
+							class="summary__icon"
+							src="/assets/images/icon-visual.svg"
+							alt=""
+						/>Visual
+					</div>
+					<div  class="summary__score"><span class="summary__score-bold">72</span> / 100</div>
+				</div>
+				<div class="button__wrapper">
+					<button class="button">Continue</button>
+				</div>
+			</section>
+		</div>
+
+		<!-- <div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Your Name Here</a>.
+		</div> -->
+	</body>
+</html>
