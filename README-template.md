@@ -35,8 +35,8 @@ Mobile:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/responsive-results-summary-component-2rTTqGjrD8)
+- Live Site URL: [here](https://fe-mentor-results-summary-raysh4n.netlify.app/)
 
 ## My process
 
